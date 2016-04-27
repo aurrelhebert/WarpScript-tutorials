@@ -1,10 +1,10 @@
-# Manipulate a Geo Time Serie
+# Manipulate a Geo Time Serie<sup>®</sup>
 
 Now, let's use WarpScript to manipulate one GTS. We will start to analyse a GTS containing the price of the nearest Station of the Brest Airport.
 
 ## Get the GTS
 
-The GTS chosen as example includes all the prices available during the month of november 2015. In order to have a generic example, this GTS was wrapped. To use it, you will first need to unwrap it. That's what is done in the first lines of the gts_01.mc2 script.
+The GTS chosen as example includes all the prices available during the month of november 2015. In order to have a generic example, this GTS is wrapped. To use it, you will first need to unwrap it. That's what is done in the first lines of the gts_01.mc2 script.
 When execute this script, the element on top of the stack is a GTS. It contains the GTS containing the price of the "gas oil" fuel.
 
 ## Manipulate this GTS - Get its last value
