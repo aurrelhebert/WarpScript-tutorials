@@ -20,7 +20,7 @@ Open and complete the gts_01.mc2 file, and execute it to get the last price know
 
 ## Manipulate the GTS - Compute the mean price of this station
 
-To compute the mean of all the values that belongs to a GTS, only one function is necessary in WarpScript: [MUSIGMA](http://www.warp10.io/reference/functions/function_MUSIGMA/). This function need a GTS on top of stack, and will put the mean and the standard deviation of the GTS on the stack.
+To compute the mean of all the values that belongs to a GTS, only one function is necessary in WarpScript: [MUSIGMA](http://www.warp10.io/reference/functions/function_MUSIGMA/). This function need a GTS on top of stack, and will put the mean and the standard deviation of the GTS on the stack. The standard deviation is now on top of stack, to delete it, use the function [DROP](http://www.warp10.io/reference/functions/function_DROP/), that delete the element on top of the stack. By doing this, you should now have the mean value of this GTS on top of the stack.
 
 Open and complete the gts_02.mc2 file, and execute it to get this station mean fuel price during the month of november.
 

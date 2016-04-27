@@ -6,3 +6,6 @@ UNWRAP
 
 // Compute Mean of this GTS
 true MUSIGMA
+
+// Delete the standard deviation
+DROP
