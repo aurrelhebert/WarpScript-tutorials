@@ -29,7 +29,7 @@ WarpScript is a programming language specific to Geo Time Series<sup>®</sup> an
 In this tutorial, two different backend can be reached: our sandbox backend or a local docker image. To run your own Warp 10 docker, follow the step available in the [chapter 0](https://github.com/aurrelhebert/WarpScript-tutorials/tree/master/00_Setup). If you want to try WarpScript using our sandbox, skip the chapter 0.
 
 To execute each mc2 files, there three possibilities. First, you can use the given html files to execute them in a navigator.
-Or you can execute the following curl request (or a Post) with the mc2 files on a specified backend.
+Or you can execute the following curl request (or any other tools to do an HTTP Post) with the mc2 files on a specified backend.
 
 ```
 curl -H 'Transfer-Encoding:chunked' --data-binary @file.mc2 $backend
