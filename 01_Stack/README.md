@@ -13,7 +13,7 @@ First fill the file stack_01 with the keyword NOW, then execute it. A corret mc2
 Let's compute an operation in WarpScript, but first, in WarpScript, you will find commentary and variable types. 
 The following WarpScript example list all the available basic types.
 
-``
+```
 // This is a commentary
 'a'      // string value
 true     // boolean value
