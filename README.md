@@ -28,14 +28,19 @@ WarpScript is a programming language specific to Geo Time Series<sup>®</sup> an
 
 In this tutorial, two different backend can be reached: our sandbox backend or a local docker image. To run your own Warp 10 docker, follow the step available in the [chapter 0](https://github.com/aurrelhebert/WarpScript-tutorials/tree/master/00_Setup). If you want to try WarpScript using our sandbox, skip the chapter 0.
 
-To execute each mc2 files, there three possibilities. First, you can use the given html files to execute them in a navigator.
-Or you can execute the following curl request (or any other tools to do an HTTP Post) with the mc2 files on a specified backend.
+To execute each mc2 files, you can execute the following curl request (or an HTTP post with any other tools) with the mc2 files on a specified backend.
 
 ```
 curl -H 'Transfer-Encoding:chunked' --data-binary @file.mc2 $backend
 ```
 
-And finally, you can use the sublime text with the interpreter available [here](https://github.com/cityzendata/sublime-warpscript).
+As an example on a localhost standalone Warp 10, the curl request is the following one.
+
+```
+curl -H 'Transfer-Encoding:chunked' --data-binary @file.mc2 http://127.0.0.1:8080/api/v0/exec
+```
+
+And finally, you can use the sublime text with the interpreter available [here](https://github.com/cityzendata/sublime-warpscript) to edit each mc2 files.
 
 Now that WarpScript is set-up, let's start with first tutorial [chapter 1](https://github.com/aurrelhebert/WarpScript-tutorials/tree/master/01_Stack). As WarpScript is a stack language, you will learn some basic information about the stack manipulation. If you are familiar with those concept go directly to the [chapter 2](https://github.com/aurrelhebert/WarpScript-tutorials/tree/master/02_Geo_Time_Serie). There you will manipulate your first Geo Time Serie<sup>®</sup> in WarpScript.
 
